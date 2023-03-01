@@ -1,7 +1,7 @@
 data = [4,3,78,2,0,2]
 
 def bubble_sort(arr)
-  arr.each_with_index do |val, index|
+  loop do
     swapped = false
     arr.each_with_index do |val_inner, index_inner|
       if arr[index_inner+1] == nil
